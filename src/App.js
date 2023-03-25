@@ -19,7 +19,7 @@ export default class App extends Component {
   pageSize=8
   apiKey=process.env.REACT_APP_NEWS_API
   state={
-    progress:0
+    progress:4
   }
   setProgress=(progress)=>{
     this.setState({progress:progress})
