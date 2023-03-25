@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Contact extends Component {
-  render() {
+const Contact=()=>{
     return (
       <div>
         <section class="contact-address-area">
@@ -18,9 +17,6 @@ export class Contact extends Component {
                 </div>
               </div>
               <div class="bottom-text">
-                {/* <p>
-                  Feel free to contact us to get help and check updates.
-                </p> */}
               </div>
             </div>
             <div class="contact-address-box row">
@@ -179,14 +175,6 @@ export class Contact extends Component {
                                   required=""
                                 />
                               </div>
-                              {/* <div class="input-box">
-                                <input
-                                  type="text"
-                                  name="form_website"
-                                  value=""
-                                  placeholder="Website"
-                                />
-                              </div> */}
                             </div>
                           </div>
                           <div class="row">
@@ -236,7 +224,6 @@ export class Contact extends Component {
         </section>
       </div>
     );
-  }
 }
 
 export default Contact;
